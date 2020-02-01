@@ -14,8 +14,7 @@ permalink: /
         <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
         {% endif %}
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
     </head>
     <body>
         <div class="content">
@@ -104,7 +103,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Website</span></a></li>
                     {% endif %}
 
                     {% if site.email %}
@@ -116,6 +115,6 @@ permalink: /
                     {% endif %}
                 </ul>
         </div>
-
+	
     </body>
 </html>
